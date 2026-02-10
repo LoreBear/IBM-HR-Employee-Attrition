@@ -27,4 +27,10 @@ Running the Python analysis on 1,470 employee records, I discovered:
 * **Kaggle API:** Automated dataset retrieval.
 
 ---
+---
+## 📈 Power BI Executive Dashboard
+I developed an interactive dashboard to visualize key HR metrics.
+![Dashboard Preview](dashboard_preview.png)
+* **Dynamic Insights:** Filter by department to see specific attrition drivers.
+* **DAX Implementation:** Created custom measures for real-time Attrition Rate calculation.
 *Created by [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzodis/) - HR & Data Specialist*
