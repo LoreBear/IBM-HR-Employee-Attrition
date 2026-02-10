@@ -26,6 +26,14 @@ Running the Python analysis on 1,470 employee records, I discovered:
 * **Seaborn/Matplotlib:** Data visualization.
 * **Kaggle API:** Automated dataset retrieval.
 
----
+## 📊 Power BI Visualization: Attrition by Role
+I created an interactive dashboard to identify which roles are most at risk.
+
+![HR Dashboard](dashboard_final.png)
+
+### Key Business Insights:
+* **Critical Roles:** Sales Representatives and Lab Technicians show an attrition rate significantly higher than the company average.
+* **Retention Strategy:** Data suggests that focused retention plans should be prioritized for entry-level technical and sales roles.
+* **Tools Used:** DAX for percentage calculations, Power Query for data cleaning.
 ---
 *Created by [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzodis/) - HR & Data Specialist*
