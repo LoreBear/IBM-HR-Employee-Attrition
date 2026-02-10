@@ -1,39 +1,53 @@
-# 📊 IBM HR Analytics: Why are employees leaving?
+# 📊 IBM HR Analytics: Employee Attrition Deep Dive
 
-## 🎯 Project Goal
-Analyze employee data to identify the main drivers of **Attrition** (turnover). 
-As an HR Specialist, my goal is to move from "intuition" to "data-driven" retention strategies.
+## 🎯 Project Overview
+This project addresses a critical HR challenge: **Employee Turnover**. Using a dataset of 1,470 employees, I combined **Python** for data exploration and **Power BI** for executive-level storytelling. The goal is to move from reactive "exit interviews" to proactive, data-driven retention strategies.
 
-## 🔍 Key Findings
-Running the Python analysis on 1,470 employee records, I discovered:
+---
 
-1.  **Salary Impact:** There is a clear correlation between lower monthly income and higher attrition rates.
-2.  **Department Risk:** The **Sales Department** has the highest turnover frequency compared to R&D.
-3.  **Overall Rate:** The company has a ~16% attrition rate, which is above the industry standard.
+## 🔍 Key Analytical Findings
 
-## 📈 Visualizations
-### 1. Income vs Retention
-*Employees with lower salaries are significantly more likely to leave.*
+Through data modeling, I identified three major drivers of attrition:
+
+* **The "Pay Gap" Effect:** Employees with lower monthly income show a significantly higher probability of leaving. Salary is a primary retention lever.
+* **Departmental Risk:** The **Sales Department** experiences the highest turnover frequency compared to R&D and HR.
+* **The Overtime Trap:** A strong correlation exists between frequent overtime and the decision to leave the company.
+* **Benchmark:** The current attrition rate is **16.1%**, which serves as our baseline for future retention KPIs.
+
+---
+
+## 📈 Python Data Exploration
+Using Python, I analyzed the raw data to find correlations and trends.
+
+### 1. Income vs. Retention
+*Visualizing the financial threshold where attrition risk increases.*
 ![Income Analysis](chart_income_impact.png)
 
 ### 2. Attrition by Department
-*Visual breakdown of where we are losing talent.*
+*Identifying high-risk areas within the organization.*
 ![Dept Analysis](chart_attrition_by_dept.png)
 
-## 🛠 Tech Stack
-* **Python:** Data cleaning and logic.
-* **Pandas:** Data manipulation.
-* **Seaborn/Matplotlib:** Data visualization.
-* **Kaggle API:** Automated dataset retrieval.
-
-## 📊 Power BI Visualization: Attrition by Role
-I created an interactive dashboard to identify which roles are most at risk.
-
-![HR Dashboard](dashboard_final.png)
-
-### Key Business Insights:
-* **Critical Roles:** Sales Representatives and Lab Technicians show an attrition rate significantly higher than the company average.
-* **Retention Strategy:** Data suggests that focused retention plans should be prioritized for entry-level technical and sales roles.
-* **Tools Used:** DAX for percentage calculations, Power Query for data cleaning.
 ---
-*Created by [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzodis/) - HR & Data Specialist*
+
+## 🖥️ Power BI Executive Dashboard
+I developed an interactive dashboard to allow stakeholders to drill down into the data.
+
+![Power BI Dashboard](dashboard_final.png)
+
+### Business Insights & Recommendations:
+* **Targeted Retention:** Retention plans should be prioritized for **Sales Representatives** and **Lab Technicians**, where the attrition rate is highest.
+* **Managerial Intervention:** Further analysis is needed on "Years with Current Manager" to identify potential leadership training needs.
+* **Data Governance:** Used **Power Query** for data transformation and created custom **DAX measures** for real-time KPI tracking.
+
+---
+
+## 🛠 Tech Stack
+* **Python:** Pandas, Seaborn, Matplotlib.
+* **Power BI:** DAX, Power Query.
+* **Data Sourcing:** Kaggle API / IBM HR Dataset.
+
+---
+
+## 👤 Contact & Links
+* **LinkedIn:** [Lorenzo Di Salvatore](www.linkedin.com/in/lorenzo-di-salvatore-psico)
+* **Portfolio:** [GitHub Repositories](https://github.com/LoreBear)
