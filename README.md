@@ -1,25 +1,44 @@
-# IBM HR Analytics | Employee Attrition Analysis
+# IBM HR Analytics: Decoding the Human Side of Attrition
 ### Project by Lorenzo Di Salvatore  
 Work and Organizational Psychology | HR Data Analytics Specialist
 
-![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
-![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+---
+
+## Project Overview: More than just Numbers
+
+Why do people walk out the door? In the corporate world, attrition is often treated as a simple "cost of doing business." Through the lens of Work & Organizational Psychology, attrition is a symptom of a deeper organizational issue.
+
+This project analyzes the IBM HR Employee Attrition dataset (1,470 records). The goal was to move beyond descriptive statistics and perform a **cultural biopsy**. By merging Python’s statistical rigor with Power BI’s dynamic visualization, raw data was transformed into a strategic roadmap for employee retention.
 
 ---
 
-## Executive Summary
+## Executive Summary: The Diagnostic Insights
 
-This project analyzes the IBM HR Employee Attrition dataset (1,470 records) to uncover why employees leave. Using Python for statistical analysis and Power BI for interactive reporting, raw HR data was transformed into actionable retention strategies.
+Attrition is rarely caused by a single factor. Instead, it results from a "toxic cocktail" of workload pressure, financial insecurity, and weak social anchoring within teams.
 
-By combining HR metrics with organizational psychology, I identified hidden risks like workload stress, low income, manager compatibility, and early burnout indicators.
+---
 
-### Key Findings
+## Core Organizational Findings
 
-- **Overtime Multiplier:** Attrition jumps from ~10% to 30.5% for employees working overtime.  
-- **$3,000 Danger Zone:** Employees earning below $3,000/month are at highest turnover risk.  
-- **Role-Specific Fragility:** Sales Representatives and Lab Technicians face high exit rates due to workload pressure and stagnation.  
-- **Manager Tenure Effect:** Employees strongly attached to their managers; weak manager relationships increase attrition.  
+### 1. The Overtime Stress Multiplier (Burnout Risk)
+
+- **What the data shows:** Attrition jumps from 10% to 30.5% for employees working overtime.  
+- **Psychologist's Take:** This is not just about hours; overtime erodes work-life balance. It acts as a stress multiplier, turning high-engagement roles into burnout traps.
+
+### 2. The $3,000 "Hygiene Factor" Danger Zone
+
+- **What the data shows:** Employees earning below $3,000/month are at the highest risk of leaving.  
+- **Psychologist's Take:** Using Herzberg’s Two-Factor Theory, salary below this threshold becomes a dissatisfier. No recognition or perks can offset a base pay that does not meet living standards.
+
+### 3. Role-Specific Fragility: Sales & Lab Technicians
+
+- **What the data shows:** Sales Representatives face nearly 40% attrition; Lab Technicians also show high turnover.  
+- **Psychologist's Take:** High-pressure roles with low autonomy induce "Learned Helplessness." Employees feel responsible but powerless, prompting them to leave.
+
+### 4. The Manager Tenure Effect (Social Anchoring)
+
+- **What the data shows:** Strong correlation between employee tenure with current manager and overall company tenure.  
+- **Psychologist's Take:** Managers embody organizational culture. Weak or new manager-employee relationships are the #1 predictor of early attrition. Hiring is as much about relationships as roles.
 
 ---
 
