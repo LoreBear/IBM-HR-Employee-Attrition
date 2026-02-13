@@ -1,6 +1,11 @@
 # IBM HR Analytics | Employee Attrition Analysis
-* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
-* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
+### Project by Lorenzo Di Salvatore  
+Work and Organizational Psychology | HR Data Analytics
+
+![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
+![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 
 ---
 
@@ -161,5 +166,13 @@ plt.figure(figsize=(12,10))
 numeric_df = df.select_dtypes(include=[np.number])
 sns.heatmap(numeric_df.corr(), annot=True, fmt=".2f", cmap='coolwarm')
 plt.savefig('chart_correlation_heatmap.png')
+```
 
+
+## Author
+
+Lorenzo Di Salvatore  
+HR Analytics | Organizational Psychology | People Data Strategy
+* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
+* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
 
