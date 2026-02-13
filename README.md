@@ -26,17 +26,20 @@ This project analyzes the IBM HR Employee Attrition dataset (1,470 records) to i
 
 **Overtime Multiplier**  
 - Attrition jumps from ~10% to 30.5% for employees working overtime.  
-- Roles like Sales Representatives are most affected.  
+- Roles like Sales Representatives are most affected.
+- **The Psychology:** Workload acts as a primary stressor. My analysis shows that employees working overtime are **3x more likely** to leave (31% vs 10%). This suggests that "hustle culture" in specific roles is directly eroding the retention rate.
 ![Overtime Impact](chart_overtime_impact.png)
 
 **The $3,000 Danger Zone**  
 - Median income for employees leaving is ~$3,000, vs ~$5,000 for those staying.  
-- Below $3,000, employees feel under-rewarded, increasing turnover risk.  
+- Below $3,000, employees feel under-rewarded, increasing turnover risk.
+- **The Psychology:** Using Herzberg’s Two-Factor Theory, I identified $3,000/month as a critical "hygiene" threshold. Below this level, monthly income becomes a source of extreme dissatisfaction, making turnover almost inevitable regardless of other benefits.
 ![Income vs Attrition](chart_income_impact.png)
 
 **Role-Specific Fragility**  
 - Sales Representatives & Lab Technicians show highest exit rates.  
-- Combination of high pressure and low job level leads to stagnation and glass ceiling effect.  
+- Combination of high pressure and low job level leads to stagnation and glass ceiling effect.
+- **The Psychology:** The high correlation between `YearsWithCurrManager` and `YearsAtCompany` confirms that the manager-employee relationship is the strongest "retention anchor." People don't leave companies; they leave (or stay for) managers.  
 ![Job Satisfaction Impact](chart_satisfaction_impact.png)
 
 ---
