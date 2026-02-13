@@ -2,6 +2,10 @@
 ### Project by Lorenzo Di Salvatore  
 Work and Organizational Psychology | HR Data Analytics Specialist
 
+![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
+![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 ---
 
 ## Project Overview: More than just Numbers
