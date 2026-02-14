@@ -131,19 +131,40 @@ Manager-employee bond is a key retention factor. Weak relationships predict high
 
 ## Strategic HR Framework: E.R.A. Roadmap
 
-**Equity (Salary):** Raise low-income, high-risk roles above $3,000  
-**Reward (Stock Options):** Offer mid-level stock options to retain talent  
-**Autonomy (Overtime & Travel):** Monitor workloads and commutes; implement flexible arrangements  
+**1. Equity: Solving the "Hygiene" Crisis**
+The Issue: Roles earning under $3,000/month (specifically Sales and Lab Techs) are in a "dissatisfaction trap."
+
+The Intervention: Perform a targeted salary adjustment for high-risk, low-income roles. Bridging the gap to the $3,000–$4,000 range moves the needle from "active flight risk" to "organizational stability."
+
+**2. Reward: Stock Options as a Social Anchor**
+The Issue: Employees with zero stock options leave at a rate of 24.4%, while Level 1+ holders stay at a rate of >90%.
+
+The Intervention: Implement a "Mid-Level Equity Grant" for high-potential talent. The data suggests that psychological ownership (stock) is a significantly cheaper and more effective retention lever than recurring salary increases.
+
+**Autonomy: Overtime & Commute Mitigation**
+The Issue: Overtime acts as a stress multiplier (31% attrition), and commute fatigue (>20km) exacerbates the desire to leave.
+
+The Intervention: Establish an "Overtime Red Flag" system. Any team exceeding 15% overtime for two consecutive months triggers a workload audit or the implementation of flexible/remote work options to offset commute-related burnout.
 
 ---
 
-## Business Takeaways
+## Business Impact & ROI
+Framing HR data as a financial asset is key to organizational influence. This project delivers value through:
 
-1. Salary Adjustment for high-risk roles  
-2. Overtime Monitoring: Red Flag system >15% overtime  
-3. Career Pathing: 18-month promotion roadmap for stagnant employees  
-4. Manager Training: Check-ins at 3 and 6 months  
-5. Retention Heatmaps: Target at-risk teams  
+**Turnover Cost Reduction**: Replacing a Sales Rep costs ~1.5x their annual salary. By reducing Sales attrition from 40% to 20%, the projected savings reach six figures.
+
+**Operational Continuity**: By identifying the "Manager Tenure Effect," we can prioritize "Relationship Handover" protocols when managers change, protecting the team from the 32% "new-manager" churn spike.
+
+**Data-Driven Credibility**: Moves the HR function from reactive "firefighting" to proactive risk management.
+
+## Future Scope: Advanced Diagnostics
+To further refine these insights, the next phases of this project would include:
+
+**Sentiment Analysis (NLP)**: Analyzing the qualitative text from exit interviews to understand the specific "unhappiness" triggers in the Sales department.
+
+**Predictive Flight Risk Modeling**: Developing a Machine Learning classifier to assign a "Probability of Exit" score to current employees based on their overtime and tenure patterns.
+
+**Work-Life Balance Correlation**: Integrating data from internal wellness surveys to map the exact tipping point where overtime leads to psychological withdrawal.
 
 ---
 
